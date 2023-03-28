@@ -6,6 +6,7 @@ public class Principal {
         p1.aumentarCantidad(50);
         p2.disminuirCantidad(30);
 
+       // System.out.println("Soy un especio reservado en memoria: " +p1);
         System.out.println("Salida de String con método propio");
         p1.imprimirDetalles();
         p2.imprimirDetalles();
