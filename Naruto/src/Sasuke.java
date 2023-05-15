@@ -1,4 +1,4 @@
-public class Sasuke extends Ninja implements ITransformarse, ISharingan, IMotivacion {
+public class Sasuke extends Ninja implements ITransformarse, ISharingan, IMotivacion, ITeletransportarse {
     public Sasuke(String nombre, String apellido, String personalidad, String edad) {
         super(nombre, apellido, personalidad, edad);
     }
@@ -16,5 +16,10 @@ public class Sasuke extends Ninja implements ITransformarse, ISharingan, IMotiva
     @Override
     public void aumentoDeChacra() {
         System.out.println("Aumento de chacra por 100");
+    }
+
+    @Override
+    public void activacionPortal() {
+        System.out.println("Portal abierto");
     }
 }

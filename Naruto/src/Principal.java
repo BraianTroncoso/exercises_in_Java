@@ -14,5 +14,6 @@ public class Principal {
         sasuke.verificarEfecto();
         sasuke.lanzar();
         sasuke.despertarSharingan();
+        sasuke.activacionPortal();
     }
 }
